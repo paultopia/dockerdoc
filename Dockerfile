@@ -20,6 +20,5 @@ RUN apt-get update -y \
     python3 \
     python3-pip \
     bash \
-    haskell-platform 
-
-RUN cabal update && cabal install pandoc && cabal install pandoc-citeproc
+    pandoc \
+    pandoc-citeproc
